@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\distorm">
+      <UniqueIdentifier>{bc1ac87e-25d4-4d15-8cbe-10348e0c516e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\distorm">
+      <UniqueIdentifier>{f2b49eee-b8bc-490c-a755-a135f4cb61cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\config.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\decoder.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\instructions.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\insts.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\operands.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\prefix.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\textdefs.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\wstring.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="distorm\src\x86defs.h">
+      <Filter>Header Files\distorm</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contextrestore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recreatecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="createcave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="relocatecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="assertlength.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\wstring.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\insts.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\mnemonics.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\operands.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\prefix.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\textdefs.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\distorm.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\decoder.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="distorm\src\instructions.c">
+      <Filter>Source Files\distorm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
